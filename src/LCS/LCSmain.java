@@ -17,12 +17,11 @@ import org.jsoup.nodes.Element;
 
 public class LCSmain 
 {
-
+	
 	public static void main(String[] args) 
 	{
-		Webscrape.extractData();
-		//Databank.eintragen(champions);
-		//launch(args);
+		//Webscrape.extractData();
+		Visualisation.initialize(args);
 		
 	}
 	
