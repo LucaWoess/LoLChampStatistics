@@ -24,9 +24,6 @@ public class Visualisation extends Application{
 		xAxis.setLabel("Categories");
 		yAxis.setLabel("Champions");
 		BarChart<String, Number> barChart = new BarChart<String,Number>(xAxis,yAxis);
-		XYChart.Series series = new XYChart.Series();
-		//series.getData().add(new XYChart.Data(, ));
-        //series.getData().add(new XYChart.Data(, ));
 		primaryStage.setTitle("LoL-Champion-Statistics");
         primaryStage.setScene(scene);
         primaryStage.show();
