@@ -20,7 +20,7 @@ public class LCSmain
 	
 	public static void main(String[] args) 
 	{
-		Webscrape.extractData();
+		//Webscrape.extractData();
 		Visualisation.initialize(args);
 		
 	}
